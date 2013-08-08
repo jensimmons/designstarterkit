@@ -1,0 +1,76 @@
+
+//-----------------------------------------------------------------------
+// Color variables
+//-----------------------------------------------------------------------
+
+$text: #1b1d1e;
+$text-light: #C9C0A2;
+//$body: #d7d7d7;
+$link: #916B05;
+$menu-link: #fff;
+$page: #fff; // page background color
+$line-color: rgba(74, 71, 5, 0.2);
+
+
+//-----------------------------------------------------------------------
+// Typography sizing
+//-----------------------------------------------------------------------
+
+// Compass Vertical Rhythm
+// http://compass-style.org/reference/compass/typography/vertical_rhythm/
+
+$base-font-size:   16px; // The font size set on the root html element.
+$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+@include establish-baseline;
+
+$h1-font-size: 1.6  * $base-font-size;
+$h2-font-size: 1.3  * $base-font-size;
+$h3-font-size: 1.1  * $base-font-size;
+$h4-font-size: 1.1  * $base-font-size;
+$h5-font-size: 1    * $base-font-size;
+$h6-font-size: 1    * $base-font-size;
+
+// The amount lists, blockquotes and comments are indented.
+$indent-amount: 0.8em;
+
+
+
+//-----------------------------------------------------------------------
+// Fonts
+//-----------------------------------------------------------------------
+
+// Let's define some font stacks
+
+$georgia:           Georgia, "Times New Roman", "DejaVu Serif", serif;
+$helvetica:         "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$courier:           "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+
+// Now let's create variables for fonts in use
+$base-font:         $georgia; 
+$body-font:         $georgia;
+$alt-font:          $helvetica;
+$accent-font:       $helvetica;
+$monospace-font:    $courier;
+$headline-font:     $helvetica;
+$interface-font:    $helvetica;
+
+
+//-----------------------------------------------------------------------
+// Grid Measurements
+//-----------------------------------------------------------------------
+
+// Grid module measurements. 
+$module-w: 2.75em;
+$module-h: $module-w;
+$gutter: 2.75em;
+
+// grid margins:
+$margin: $gutter;
+$top: 3em;
+$bottom: 3em;
+
+// number of modules across to calculate:
+$columns: 12;
+$text-column-span: 6;
+
+

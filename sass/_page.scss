@@ -1,0 +1,218 @@
+
+//-----------------------------------------------------------------------
+// Whole Page
+//-----------------------------------------------------------------------
+
+html {
+//  background: url("../images/background.jpg") #eee;
+}
+body {
+
+}
+
+.element-invisible {
+  @include element-invisible;
+}
+
+
+//-----------------------------------------------------------------------
+// Header
+//-----------------------------------------------------------------------
+
+header[role="banner"] {
+
+}
+
+//-----------------------------------------------------------------------
+// Navigation
+//-----------------------------------------------------------------------
+
+nav[role="navigation"] {
+  ul {
+    margin-top: 0.4em;
+  }
+  li {
+
+  }
+  a {
+
+  }
+}
+
+
+//-----------------------------------------------------------------------
+// Asides
+//-----------------------------------------------------------------------
+
+aside {
+
+}
+
+
+//-----------------------------------------------------------------------
+// Section
+//-----------------------------------------------------------------------
+
+section {
+
+}
+
+
+
+//-----------------------------------------------------------------------
+// Footer
+//-----------------------------------------------------------------------
+
+footer[role="contentinfo"] {
+  background: rgba(0, 0, 0, 0.8);
+  color: $text-light;
+  text-align: center;
+  margin: 0;
+}
+
+
+//-----------------------------------------------------------------------
+// Blockquote
+//-----------------------------------------------------------------------
+
+blockquote {
+  position: relative;
+  z-index: 10;
+  @include clearfix;
+  padding: 2em 0 1em;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+blockquote:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-bottom: 1px solid $line-color;
+}
+
+
+//-----------------------------------------------------------------------
+// Images
+//-----------------------------------------------------------------------
+
+img {
+
+}
+
+img.float-left {
+  width: 100%;
+  margin-top: 0.3em;
+  @media screen and (min-width: 25em) { 
+    width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+  @media screen and (min-width: 40em) { 
+    width: auto;
+    max-width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+}
+
+img.float-right {
+  width: 100%;
+  margin-top: 0.3em;
+  @media screen and (min-width: 40em) { 
+    width: auto;
+    max-width: 50%;
+    float: right;
+    margin-left: 5%;
+  }
+}
+
+
+//-----------------------------------------------------------------------
+// Figures
+//-----------------------------------------------------------------------
+
+figure {
+  @include clearfix;
+  margin: 1em 0;
+}
+figure.image {
+  text-align: center;
+  figcaption {
+    margin-top: 1em;  
+  }
+}
+figcaption {
+  font-style: italic;
+  font-size: 75%;
+  opacity: 0.8;
+  text-align: center;
+}
+
+
+//-----------------------------------------------------------------------
+// Video
+//-----------------------------------------------------------------------
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  margin: 1em 0;
+}
+
+
+//-----------------------------------------------------------------------
+// Tables
+//-----------------------------------------------------------------------
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	margin: 2em 0;
+	img {
+  	width: 100px;
+	}
+}
+th { 
+  border-top: 1px solid $line-color; 
+  font-style: italic;
+  font-weight: normal;
+   @include element-invisible();
+}
+tr {
+	border-bottom: 1px solid $line-color; 
+}
+table + tr {
+	border-top: 1px solid $line-color; 
+}
+td, th { 
+	padding: 1em; 
+	text-align: left; 
+}
+td + td {
+  min-width: 6em;
+  padding-left: 2em;
+  width: 15%;
+}
+
+
+//-----------------------------------------------------------------------
+// Forms
+//-----------------------------------------------------------------------
+
+form, input, textarea {
+  width: 100%;
+}
+label {
+  margin-top: 1em;
+}
+input[type="submit"] {
+  margin-top: 1em;
+}
+label {
+  display: block;
+}

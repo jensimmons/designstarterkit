@@ -1,0 +1,156 @@
+/* =============================================================================
+   Typography
+
+   To achieve a pleasant vertical rhythm, we use Compass' Vertical Rhythm mixins
+   so that the line height of our base font becomes the basic unit of vertical
+   measurement. We use multiples of that unit to set the top and bottom margins
+   for our block level elements and to set the line heights of any fonts.
+   For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
+   ========================================================================== */
+
+body {
+  font-family: $base-font;
+  color: $text;
+}
+ 
+h1, h2, h3, h4 ,h5 ,h6 {
+  font-family: $headline-font;
+  font-weight: 500;
+}
+h1 {
+  @include adjust-font-size-to( $h1-font-size );
+}
+h1 + h1 {
+  @include leader (0);
+}
+h2 {
+  @include adjust-font-size-to( $h2-font-size );
+  @include leader(0, $h2-font-size);
+  @include trailer(0, $h2-font-size);
+  @include adjust-leading-to(1.2, $h2-font-size);
+}
+h3 {
+  @include adjust-font-size-to( $h3-font-size );
+  @include leader(0, $h3-font-size);
+  @include trailer(0.4, $h3-font-size);
+  @include adjust-leading-to(1.2, $h2-font-size);
+}
+h4 {
+  @include adjust-font-size-to( $h4-font-size );
+  @include leader(0, $h4-font-size);
+  @include trailer(0, $h4-font-size);
+}
+h5 {
+  @include adjust-font-size-to( $h5-font-size );
+  @include leader(0, $h5-font-size);
+  @include trailer(0, $h5-font-size);
+}
+h6 {
+  @include adjust-font-size-to( $h6-font-size );
+  @include leader(0, $h6-font-size);
+  @include trailer(0, $h6-font-size);
+}
+
+p {
+  margin: rhythm(0.4) 0;
+  text-indent: $indent-amount;
+  &.noindent, &.caption & {
+    text-indent: 0;
+  }
+  &.caption {
+    text-align: left;
+    .lightbox & {
+      color: #fff;
+    }
+  }
+}
+
+a,
+a:link,
+a:visited {
+  color: $link;
+  text-decoration: underline;
+  &:hover,
+  &:focus {
+    color: lighten($link, 10%);
+  }
+}
+a.section-anchor {
+  display: block;
+  padding-top: 55px;
+}
+
+//::-moz-selection {
+//    background: $highlight;
+//    text-shadow: none;
+//}
+//::selection {
+//    background: $highlight;
+//    text-shadow: none;
+//}
+
+img {
+  vertical-align: middle;
+}
+
+figcaption {
+  font-family: $alt-font;
+  @include adjust-font-size-to(14px);
+  color: lighten($text, 20%);
+}
+
+blockquote {
+  margin: rhythm(0.5) $indent-amount;
+}
+
+cite {
+  margin: rhythm(0.5) $indent-amount;
+  @include adjust-font-size-to(12px);
+  color: lighten($text, 30%);
+  font-style: normal;
+}
+
+canvas {
+  background: #fff;
+  margin: rhythm(1) 0;
+}
+
+pre {
+  margin: 0.5em 0 1em $indent-amount;
+}
+.static-code-container {
+  @include adjust-font-size-to(13px);
+  line-height: 1em;
+  clear: both;
+}
+
+code,
+kbd,
+samp {
+  margin: rhythm(1) 0;
+  @include adjust-font-size-to(13px);
+  line-height: 1em;
+}
+
+dl,
+menu,
+ol,
+ul,
+.item-list ul {
+  margin: 0.8em 0;
+}
+ul {
+  padding-left: $indent-amount*1.6;
+}
+ol {
+  padding-left: $indent-amount*1.9;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding-bottom: -1px;
+  margin: rhythm(1) 0;
+}
+

@@ -1,0 +1,1005 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000322}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000332}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000343}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000354}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000369}}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000384}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\0000392}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003104}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003113}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003127}}
+Typography
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003132}}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003137}}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003142}}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003147}}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003152}}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003161}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003170}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003174}}
+blockquote {
+  margin: 1em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003182}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003190}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003200}}
+p,
+pre {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003211}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003221}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003231}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003240}}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003249}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003258}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003265}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003269}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003284}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003288}}
+dd {
+  margin: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003298}}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003307}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003321}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003330}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003342}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003354}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003362}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003374}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003391}}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003404}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003421}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003432}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003444}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003457}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003470}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003479}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003489}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_normalize\.scss}line{font-family:\00003502}}
+Tables
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/style\.scss}line{font-family:\000034}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+* html {
+  font-size: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* =============================================================================
+   Typography
+
+   To achieve a pleasant vertical rhythm, we use Compass' Vertical Rhythm mixins
+   so that the line height of our base font becomes the basic unit of vertical
+   measurement. We use multiples of that unit to set the top and bottom margins
+   for our block level elements and to set the line heights of any fonts.
+   For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000311}}
+body {
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #1b1d1e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000316}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000320}}
+h1 {
+  font-size: 1.6em;
+  line-height: 1.875em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000323}}
+h1 + h1 {
+  margin-top: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000326}}
+h2 {
+  font-size: 1.3em;
+  line-height: 2.30769em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 1.38462em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000332}}
+h3 {
+  font-size: 1.1em;
+  line-height: 1.36364em;
+  margin-top: 0em;
+  margin-bottom: 0.54545em;
+  line-height: 1.38462em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000338}}
+h4 {
+  font-size: 1.1em;
+  line-height: 1.36364em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000343}}
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000348}}
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000354}}
+p {
+  margin: 0.6em 0;
+  text-indent: 0.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000357}}
+p.noindent, p.caption p {
+  text-indent: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000360}}
+p.caption {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000362}}
+.lightbox p.caption {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000370}}
+a,
+a:link,
+a:visited {
+  color: #916b05;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000374}}
+a:hover, a:focus,
+a:link:hover,
+a:link:focus,
+a:visited:hover,
+a:visited:focus {
+  color: #c28f07;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000378}}
+a.section-anchor {
+  display: block;
+  padding-top: 55px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000392}}
+img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000396}}
+figcaption {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  color: #4b5154;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003102}}
+blockquote {
+  margin: 0.75em 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003106}}
+cite {
+  margin: 0.75em 0.8em;
+  font-size: 0.75em;
+  line-height: 2em;
+  color: #636b6f;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003113}}
+canvas {
+  background: #fff;
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003118}}
+pre {
+  margin: 0.5em 0 1em 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003121}}
+.static-code-container {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1em;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003129}}
+code,
+kbd,
+samp {
+  margin: 1.5em 0;
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003139}}
+dl,
+menu,
+ol,
+ul,
+.item-list ul {
+  margin: 0.8em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003142}}
+ul {
+  padding-left: 1.28em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003145}}
+ol {
+  padding-left: 1.52em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003149}}
+hr {
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding-bottom: -1px;
+  margin: 1.5em 0;
+}
+
+@keyframes crossfade {
+  /* line 4, ../sass/_animations.scss */
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+
+  /* line 5, ../sass/_animations.scss */
+  2% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+
+  /* line 6, ../sass/_animations.scss */
+  8% {
+    opacity: 1;
+  }
+
+  /* line 7, ../sass/_animations.scss */
+  10% {
+    opacity: 0;
+  }
+
+  /* line 8, ../sass/_animations.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes crossfade {
+  /* line 11, ../sass/_animations.scss */
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+
+  /* line 12, ../sass/_animations.scss */
+  2% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+
+  /* line 13, ../sass/_animations.scss */
+  8% {
+    opacity: 1;
+  }
+
+  /* line 14, ../sass/_animations.scss */
+  10% {
+    opacity: 0;
+  }
+
+  /* line 15, ../sass/_animations.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* =============================================================================
+   Typography
+
+   To achieve a pleasant vertical rhythm, we use Compass' Vertical Rhythm mixins
+   so that the line height of our base font becomes the basic unit of vertical
+   measurement. We use multiples of that unit to set the top and bottom margins
+   for our block level elements and to set the line heights of any fonts.
+   For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000311}}
+body {
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #1b1d1e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000316}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000320}}
+h1 {
+  font-size: 1.6em;
+  line-height: 1.875em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000323}}
+h1 + h1 {
+  margin-top: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000326}}
+h2 {
+  font-size: 1.3em;
+  line-height: 2.30769em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 1.38462em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000332}}
+h3 {
+  font-size: 1.1em;
+  line-height: 1.36364em;
+  margin-top: 0em;
+  margin-bottom: 0.54545em;
+  line-height: 1.38462em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000338}}
+h4 {
+  font-size: 1.1em;
+  line-height: 1.36364em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000343}}
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000348}}
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000354}}
+p {
+  margin: 0.6em 0;
+  text-indent: 0.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000357}}
+p.noindent, p.caption p {
+  text-indent: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000360}}
+p.caption {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000362}}
+.lightbox p.caption {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000370}}
+a,
+a:link,
+a:visited {
+  color: #916b05;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000374}}
+a:hover, a:focus,
+a:link:hover,
+a:link:focus,
+a:visited:hover,
+a:visited:focus {
+  color: #c28f07;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000378}}
+a.section-anchor {
+  display: block;
+  padding-top: 55px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000392}}
+img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\0000396}}
+figcaption {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  color: #4b5154;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003102}}
+blockquote {
+  margin: 0.75em 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003106}}
+cite {
+  margin: 0.75em 0.8em;
+  font-size: 0.75em;
+  line-height: 2em;
+  color: #636b6f;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003113}}
+canvas {
+  background: #fff;
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003118}}
+pre {
+  margin: 0.5em 0 1em 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003121}}
+.static-code-container {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1em;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003129}}
+code,
+kbd,
+samp {
+  margin: 1.5em 0;
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003139}}
+dl,
+menu,
+ol,
+ul,
+.item-list ul {
+  margin: 0.8em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003142}}
+ul {
+  padding-left: 1.28em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003145}}
+ol {
+  padding-left: 1.52em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_typography\.scss}line{font-family:\00003149}}
+hr {
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding-bottom: -1px;
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_layout\.scss}line{font-family:\0000321}}
+img {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_layout\.scss}line{font-family:\0000325}}
+nav[role="navigation"] ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_layout\.scss}line{font-family:\0000331}}
+nav[role="navigation"] li {
+  float: left;
+  padding: 0 1.5em 0 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_layout\.scss}line{font-family:\0000337}}
+nav[role="navigation"] li:last-child {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_layout\.scss}line{font-family:\0000340}}
+nav[role="navigation"] a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\0000313}}
+.element-invisible {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\0000331}}
+nav[role="navigation"] ul {
+  margin-top: 0.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\0000366}}
+footer[role="contentinfo"] {
+  background: rgba(0, 0, 0, 0.8);
+  color: #c9c0a2;
+  text-align: center;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\0000378}}
+blockquote {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 2em 0 1em;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\0000386}}
+blockquote:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-bottom: 1px solid rgba(74, 71, 5, 0.2);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003107}}
+img.float-left {
+  width: 100%;
+  margin-top: 0.3em;
+}
+@media screen and (min-width: 25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003107}}
+  img.float-left {
+    width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003107}}
+  img.float-left {
+    width: auto;
+    max-width: 50%;
+    float: left;
+    margin-right: 2em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003123}}
+img.float-right {
+  width: 100%;
+  margin-top: 0.3em;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003123}}
+  img.float-right {
+    width: auto;
+    max-width: 50%;
+    float: right;
+    margin-left: 5%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003139}}
+figure {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003143}}
+figure.image {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003145}}
+figure.image figcaption {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003149}}
+figcaption {
+  font-style: italic;
+  font-size: 75%;
+  opacity: 0.8;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003161}}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003172}}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003176}}
+table img {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003180}}
+th {
+  border-top: 1px solid rgba(74, 71, 5, 0.2);
+  font-style: italic;
+  font-weight: normal;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003186}}
+tr {
+  border-bottom: 1px solid rgba(74, 71, 5, 0.2);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003189}}
+table + tr {
+  border-top: 1px solid rgba(74, 71, 5, 0.2);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003192}}
+td, th {
+  padding: 1em;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003196}}
+td + td {
+  min-width: 6em;
+  padding-left: 2em;
+  width: 15%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003207}}
+form, input, textarea {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003210}}
+label {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003213}}
+input[type="submit"] {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Jen\'s\%20STARTERKIT\/sass\/_page\.scss}line{font-family:\00003216}}
+label {
+  display: block;
+}

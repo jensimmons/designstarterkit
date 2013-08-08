@@ -1,0 +1,86 @@
+
+//-----------------------------------------------------------------------
+// Layouts
+//-----------------------------------------------------------------------
+
+body {
+
+}
+article {
+
+}
+footer[role="contentinfo"] {
+
+}
+header[role="banner"] {
+
+}
+aside {
+
+}
+img {
+  max-width: 100%;
+}  
+nav[role="navigation"] {
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    @include clearfix;
+  }
+  li {
+    float: left;
+    padding: 0 1.5em 0 0;
+    list-style-type: none;
+    list-style-image: none;
+  }
+  li:last-child {
+    padding-right: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 30em) { // 480px
+
+}
+@media screen and (min-width: 35em) { // 560px
+
+}
+@media screen and (min-width: 40em) { // 640px
+
+}
+@media screen and (min-width: 45em) { // 720px
+
+}
+@media screen and (min-width: 50em) { // 800px
+
+}
+@media screen and (min-width: 55em) { // 880px
+
+}
+@media screen and (min-width: 60em) { // 960px
+
+}
+@media screen and (min-width: 65em) { // 1040px
+
+}
+@media screen and (min-width: 70em) { // 1120px
+
+}
+@media screen and (min-width: 75em) { // 1200px
+
+}
+@media screen and (min-width: 80em) { // 1280px
+
+}
+@media screen and (min-width: 85em) { // 1360px
+
+}
+@media screen and (min-width: 90em) { // 1440px
+
+}
+
+
+
