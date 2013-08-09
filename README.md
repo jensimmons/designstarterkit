@@ -11,6 +11,6 @@ If you don't like this starterkit, then don't use it. No need to waste your time
 
 Also, these files might be full of random scratch code, mistakes, leftover stuff that wouldn't be there if I had noticed that it's there... so use at your own risk, and use your own brain. Not everything in here is great. If you see something you don't understand, do a Google search on that line of code and you'll likely figure it out. That's how I learn what other people's code does.
 
-Meanwhile, this starterkit will keep evolving. It might suddenly and radically change without warning. I make no promises. It's a tool written just for me. I thought I'd make this repo public in case it's helpful or interesting to anyone else. Looking at other people's HTML/CSS/javascript starter kits has been one of my favorite ways to learn techniques.
+Meanwhile, this starterkit will keep evolving. It might suddenly and radically change without warning. I make no promises. It's a tool written just for me. I thought I'd make this repo public in case it's helpful or interesting to anyone else. Looking at other people's HTML/CSS/javascript starter kits has been one of my favorite ways to learn new techniques.
 
 -- Jen 
